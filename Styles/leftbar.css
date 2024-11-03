@@ -1,0 +1,37 @@
+.leftbar{
+  
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  width: 76px;
+  z-index: 200;
+  background-color: white;
+ 
+
+  
+}
+.leftbar-links{
+  display: flex;
+  width: 76px;
+  height: 76px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  cursor: pointer;
+  background-color: white;
+  
+}
+
+.leftbar-icons{
+  width: 24px;
+  margin-bottom: 5px;
+}
+.leftbar-links:hover{
+  background-color: lightgrey;
+
+}
+.leftbar-links div{
+font-size: 10px;
+
+}
